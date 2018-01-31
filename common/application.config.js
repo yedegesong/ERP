@@ -5,7 +5,7 @@
 (function(){
         //全局路径
         function basePath (){
-                return 'http://127.0.0.1:9090'
+                return 'https://yedegesong.github.io/ERP'
         }
         //全局Api地址
         function baseApiPath(){
@@ -14,7 +14,7 @@
         }
 
         window.applicationConfig = {
-                TelBaseUrl: basePath () + '/dist/pages/',
+                TelBaseUrl: basePath () + '/pages/',
                 version:'4.0.0',
                 ApiBaseUrl:  baseApiPath ()
         }
